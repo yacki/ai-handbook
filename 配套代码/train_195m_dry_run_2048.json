@@ -1,0 +1,22 @@
+{
+  "config": {
+    "vocab_size": 32768,
+    "hidden_size": 768,
+    "num_layers": 24,
+    "num_heads": 12,
+    "intermediate_size": 2048,
+    "max_seq_len": 2048,
+    "rope_theta": 10000.0,
+    "rms_eps": 1e-06,
+    "attention_backend": "sdpa"
+  },
+  "parameters": 195072768,
+  "training_executed": false,
+  "data_reader": "prepared dataset.pt loaded in CPU RAM; not streaming",
+  "limitations": [
+    "CUDA training not verified in this book",
+    "DDP not implemented in this entry point",
+    "SDPA fused-kernel availability and GPU memory must be measured on target hardware"
+  ],
+  "model_source_sha256": "ba9286a0c9ba0466cbc7af1bae78817a47e669b5a2d78f00b476adfce7ef3a89"
+}

@@ -1,0 +1,83 @@
+{
+  "torch_version": "2.8.0",
+  "tokenizers_version": "0.22.2",
+  "vocab_size": 320,
+  "windows": {
+    "train": 213,
+    "valid": 37
+  },
+  "effective_tokens": {
+    "train": 6700,
+    "valid": 1164
+  },
+  "continuous": {
+    "architecture": "tiny",
+    "parameters": 30880,
+    "device": "cpu",
+    "amp_bfloat16": false,
+    "step": 30,
+    "training_tokens": 3789,
+    "train_loss_at_entry": 5.773961801101913,
+    "train_loss": 2.950415736525806,
+    "valid_loss": 3.0037299808358,
+    "config": {
+      "vocab_size": 320,
+      "hidden_size": 32,
+      "num_layers": 2,
+      "num_heads": 4,
+      "intermediate_size": 64,
+      "max_seq_len": 32,
+      "rope_theta": 10000.0,
+      "rms_eps": 1e-06,
+      "attention_backend": "sdpa"
+    }
+  },
+  "resumed": {
+    "architecture": "tiny",
+    "parameters": 30880,
+    "device": "cpu",
+    "amp_bfloat16": false,
+    "step": 30,
+    "training_tokens": 3789,
+    "train_loss_at_entry": 3.575211095667597,
+    "train_loss": 2.950415736525806,
+    "valid_loss": 3.0037299808358,
+    "config": {
+      "vocab_size": 320,
+      "hidden_size": 32,
+      "num_layers": 2,
+      "num_heads": 4,
+      "intermediate_size": 64,
+      "max_seq_len": 32,
+      "rope_theta": 10000.0,
+      "rms_eps": 1e-06,
+      "attention_backend": "sdpa"
+    }
+  },
+  "resume_max_parameter_diff": 0.0,
+  "zero_token_update": {
+    "updated": false,
+    "tokens": 0,
+    "loss": null
+  },
+  "zero_token_parameter_diff": 0.0,
+  "zero_token_optimizer_steps_unchanged": true,
+  "accumulation_max_gradient_diff": 7.450580596923828e-08,
+  "cpu_bfloat16_update": {
+    "updated": true,
+    "tokens": 10,
+    "loss": 3.5554664611816404,
+    "grad_norm": 4.4129319190979
+  },
+  "formal_195m_training_executed": false,
+  "ddp_executed": false,
+  "checkpoint_artifacts_included": false,
+  "checkpoint_note": "运行training_project.py demo可重新生成连续、中断与恢复检查点；本交付不包含临时二进制检查点。",
+  "special_token_ids": {
+    "<pad>": 0,
+    "<bos>": 1,
+    "<eos>": 2,
+    "<unk>": 3
+  },
+  "training_project_source_sha256": "0e1b05d8e643863b56295024e41435943c248ccddec2da9dcd7a31f80ca41558"
+}

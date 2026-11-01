@@ -1,0 +1,12 @@
+# Python与本地环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# 本地实验产物与训练权重
+runs/
+*.pt
+*.pth
+*.safetensors

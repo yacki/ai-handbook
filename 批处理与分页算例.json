@@ -1,0 +1,149 @@
+{
+  "scope": "discrete toy scheduling and allocation, not measured server speed",
+  "static": {
+    "ticks": 8,
+    "finish_tick": {
+      "0": 2,
+      "1": 5,
+      "2": 8
+    },
+    "events": [
+      {
+        "tick": 1,
+        "active_ids": [
+          0,
+          1
+        ],
+        "occupied_slots": 2
+      },
+      {
+        "tick": 2,
+        "active_ids": [
+          0,
+          1
+        ],
+        "occupied_slots": 2
+      },
+      {
+        "tick": 3,
+        "active_ids": [
+          1
+        ],
+        "occupied_slots": 1
+      },
+      {
+        "tick": 4,
+        "active_ids": [
+          1
+        ],
+        "occupied_slots": 1
+      },
+      {
+        "tick": 5,
+        "active_ids": [
+          1
+        ],
+        "occupied_slots": 1
+      },
+      {
+        "tick": 6,
+        "active_ids": [
+          2
+        ],
+        "occupied_slots": 1
+      },
+      {
+        "tick": 7,
+        "active_ids": [
+          2
+        ],
+        "occupied_slots": 1
+      },
+      {
+        "tick": 8,
+        "active_ids": [
+          2
+        ],
+        "occupied_slots": 1
+      }
+    ],
+    "total_output_tokens": 10,
+    "reserved_slot_utilization": 0.625
+  },
+  "continuous": {
+    "ticks": 5,
+    "finish_tick": {
+      "0": 2,
+      "1": 5,
+      "2": 5
+    },
+    "events": [
+      {
+        "tick": 1,
+        "active_ids": [
+          0,
+          1
+        ],
+        "occupied_slots": 2
+      },
+      {
+        "tick": 2,
+        "active_ids": [
+          0,
+          1
+        ],
+        "occupied_slots": 2
+      },
+      {
+        "tick": 3,
+        "active_ids": [
+          1,
+          2
+        ],
+        "occupied_slots": 2
+      },
+      {
+        "tick": 4,
+        "active_ids": [
+          1,
+          2
+        ],
+        "occupied_slots": 2
+      },
+      {
+        "tick": 5,
+        "active_ids": [
+          1,
+          2
+        ],
+        "occupied_slots": 2
+      }
+    ],
+    "total_output_tokens": 10,
+    "reserved_slot_utilization": 1.0
+  },
+  "pages": {
+    "lengths": [
+      17,
+      33,
+      5
+    ],
+    "block_size": 16,
+    "page_counts": [
+      2,
+      3,
+      1
+    ],
+    "used_token_slots": 55,
+    "allocated_token_slots": 96
+  },
+  "copy_on_write": {
+    "shared_prefix_blocks": [
+      7,
+      2
+    ],
+    "branch_A_tail": 9,
+    "branch_B_tail_after_copy": 12,
+    "explanation": "two branches share read-only prefix; mutable tail is copied before divergent write"
+  }
+}

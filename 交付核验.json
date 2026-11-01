@@ -1,0 +1,979 @@
+{
+  "checked_date": "2026-11-01",
+  "chapter_count": 92,
+  "body_visible_characters": 464209,
+  "han_characters_separately_counted": 369203,
+  "length_ranges": {
+    "1-20": [
+      4000,
+      5000
+    ],
+    "21-92": [
+      5000,
+      8000
+    ]
+  },
+  "exercise_and_hint_in_every_chapter": true,
+  "outline_and_filenames_match": true,
+  "long_paragraph_duplicates_across_chapters": 0,
+  "local_markdown_links_checked": 176,
+  "python_files_syntax_checked": 31,
+  "scope": "文件完整性、篇幅、练习、链接、语法与代表性实验分别核验；不等于穷尽每条科学结论或复现全部论文。",
+  "gpu_or_195m_training_claimed": false,
+  "code_files": [
+    {
+      "file": "配套代码/agent_state_machine.py",
+      "sha256": "c3caf472013f8c0d5d1f93be93f0930ac97b5d9481703422a3e427562c8cf4a9"
+    },
+    {
+      "file": "配套代码/architecture_arithmetic_demo.py",
+      "sha256": "1ce981c0eed375b580612de2c13888094fc1abca8d1d830979e38ddd209801e4"
+    },
+    {
+      "file": "配套代码/book_transformer.py",
+      "sha256": "ba9286a0c9ba0466cbc7af1bae78817a47e669b5a2d78f00b476adfce7ef3a89"
+    },
+    {
+      "file": "配套代码/ch13_autograd.py",
+      "sha256": "59db569ca2cade0f7db46f8b0ec625dedbbfd747da8084738c231de73c610449"
+    },
+    {
+      "file": "配套代码/ch19_bigram.py",
+      "sha256": "49455c638ad61a70edcb99468bc9e1913f15b03c6dfebb4fe51444c6e961c5d8"
+    },
+    {
+      "file": "配套代码/ch44_65_lab.py",
+      "sha256": "67b20d604f5573eb631ba1bc7c67f4de58b4ff8a73122ed70ccfb39ed4235be7"
+    },
+    {
+      "file": "配套代码/ch47_48_tiny_adaptation.py",
+      "sha256": "95b013f66482a6a8cad749a6f6c6d2341457fb5f0ed307b226515902b41b60fc"
+    },
+    {
+      "file": "配套代码/ch52_56_budget_design.py",
+      "sha256": "b2b1c78cb6a276930798c342aaa68bbb982a33733beec9b20571c15609241769"
+    },
+    {
+      "file": "配套代码/ch56_ablation_lab.py",
+      "sha256": "95daccc4eb8a91c5701a06965a46ca9439b0f32fa7f5a4c5aec391bdaaffe136"
+    },
+    {
+      "file": "配套代码/ch58_sampling_lab.py",
+      "sha256": "39a82bbed5493f698bd8c63c8121a18c6c00c3e88b257c7334f5887748eb5ec6"
+    },
+    {
+      "file": "配套代码/ch59_62_cache_lab.py",
+      "sha256": "8ed13e5a03ba87512fc0e1a4d875b35ab7d4663846a0bc46a32d0bf50cabf2d9"
+    },
+    {
+      "file": "配套代码/ch62_online_softmax_lab.py",
+      "sha256": "2f065daefad2685b0d924e7b141ff73f21995572fcb30bbac68634c4ef5aaaf4"
+    },
+    {
+      "file": "配套代码/ch63_quantization_lab.py",
+      "sha256": "8f9aa177dac833f191ae89f13d325279fff42d9aa04c55ced2b63502773d9710"
+    },
+    {
+      "file": "配套代码/ch64_copy_on_write_lab.py",
+      "sha256": "c4ab5110945aa01f27b404c567740ebab13dc4d74b535aadf4e03074833d12c8"
+    },
+    {
+      "file": "配套代码/ch64_scheduler_lab.py",
+      "sha256": "337a0fea30211192ced9a2a3745a10cdfc05b857dff805ab81753b8b7cb559c8"
+    },
+    {
+      "file": "配套代码/ch65_speculative_edge_lab.py",
+      "sha256": "2d0b417d6fd2c8b6b523b50fb1baf28fef81b58fa53dacc814bd43a5ac91c2ef"
+    },
+    {
+      "file": "配套代码/harness_recovery_lab.py",
+      "sha256": "d82f14d453e926fa283eff62967af0b60505fc8311055a1df7a409a68eebf37d"
+    },
+    {
+      "file": "配套代码/maintenance_product_demo.py",
+      "sha256": "29da303a9cd0ae38435b431c19dc3cb2bc200c16041b2689000e72472a7f164a"
+    },
+    {
+      "file": "配套代码/micro_experiments.py",
+      "sha256": "e0bb9b4e7dfd9a1bb5397f3fc0ed23e10a084014f1695bba662d571699c1d2fa"
+    },
+    {
+      "file": "配套代码/model_metadata_demo.py",
+      "sha256": "9d1df4b8884c56e1e8a4b83747f1f845dafa125920fca2d34301d608835996b1"
+    },
+    {
+      "file": "配套代码/multimodal_arithmetic_demo.py",
+      "sha256": "93063c41b0f4d41d88eb01a5554021a95fbab21ad7a255ae59b2b6f9d0536e22"
+    },
+    {
+      "file": "配套代码/offline_rag.py",
+      "sha256": "b31651b6857fd8a6e08e845692b948e782b2f095600374ee126ed5343346982f"
+    },
+    {
+      "file": "配套代码/reasoning_budget_demo.py",
+      "sha256": "3a1dd870b340be015a44acf115da1a585d2fa4cc95788fc1c67f06e7edae5a3d"
+    },
+    {
+      "file": "配套代码/security_boundary_demo.py",
+      "sha256": "5ab3fad64bdb7846c427091dd6ec4aecde80428a079b472820c2f56b5c284092"
+    },
+    {
+      "file": "配套代码/streaming_lab.py",
+      "sha256": "96b6641ae692baffee1031aaa2ada1f136c14994adfa56a0a9345e97ca6856d9"
+    },
+    {
+      "file": "配套代码/structured_tools_demo.py",
+      "sha256": "50ef18164ff58dbd2524189318956f23027b3624a7d2594c0177922712a6354d"
+    },
+    {
+      "file": "配套代码/train_195m.py",
+      "sha256": "7f8a37377a527d9e425f07d4b6fbc97aea9eb8e6649d726dbaae6d9448737118"
+    },
+    {
+      "file": "配套代码/training_project.py",
+      "sha256": "0e1b05d8e643863b56295024e41435943c248ccddec2da9dcd7a31f80ca41558"
+    },
+    {
+      "file": "配套代码/verify_frontier_examples.py",
+      "sha256": "dca7f464411bcbe566f57073c315b2cbe1cb1bddc0b3b8c68bbe694946994a17"
+    },
+    {
+      "file": "配套代码/verify_system_examples.py",
+      "sha256": "edb4205ee2f5b202333b3ffa23431f7d28a7dc14102484397414b6bf890b2d51"
+    },
+    {
+      "file": "配套代码/verify_transformer.py",
+      "sha256": "fcfba158eb69329f57da123d1a63daa68ef52e72f5fb1a1735e89a0a7fa25e4a"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "file": "01-从一句话开始：预测下一个token.md",
+      "body_chars": 4249,
+      "han_chars": 3569,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "2b57967f28674e0ec0aaba96246578009311057d747a73cfbc01e7f225e09983"
+    },
+    {
+      "chapter": 2,
+      "file": "02-把文字变成编号：token与分词.md",
+      "body_chars": 4267,
+      "han_chars": 3458,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "52aa5d85c8d94f87b5e516a8f50521e3df7620583e9bda43e63230da2297d921"
+    },
+    {
+      "chapter": 3,
+      "file": "03-从分数到概率：softmax与采样.md",
+      "body_chars": 4238,
+      "han_chars": 3076,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "6af934fe107b358c1ad19dfe2f79b09d1db7cee6d851c75aad06d2b5900b1902"
+    },
+    {
+      "chapter": 4,
+      "file": "04-怎样给预测评分：交叉熵与困惑度.md",
+      "body_chars": 4283,
+      "han_chars": 3196,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "5b4c1f2344a3dff367224f639929936633386f46778257e3905b05e0a5b1ccc4"
+    },
+    {
+      "chapter": 5,
+      "file": "05-模型怎样知道参数应该往哪里调.md",
+      "body_chars": 4304,
+      "han_chars": 3211,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "8001a92b86e7a3d1dd521571b37ba560b3beb87b3661a9f9aafaa1f6b6ef1cb7"
+    },
+    {
+      "chapter": 6,
+      "file": "06-一个损失数字怎样找到每个参数.md",
+      "body_chars": 4280,
+      "han_chars": 3241,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "879673926615b9f7efb839fa6c510952c94dc28488f1ffa01ef8fd8b44f82da6"
+    },
+    {
+      "chapter": 7,
+      "file": "07-多个样本、批次与梯度冲突.md",
+      "body_chars": 4312,
+      "han_chars": 3116,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "025c664efc96943fbda75fa3f007281f7a61745295c77fca4cb8f48738059472"
+    },
+    {
+      "chapter": 8,
+      "file": "08-训练集之外：泛化、验证集与数据泄漏.md",
+      "body_chars": 4229,
+      "han_chars": 3775,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "50fd861bf77277394ce68af6e2b23659f7d5ca52c19f7e96dde30ae154df9b43"
+    },
+    {
+      "chapter": 9,
+      "file": "09-把许多数字一起算：向量与矩阵.md",
+      "body_chars": 4054,
+      "han_chars": 3013,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "c9de8d9807b0c9db2ea2386a228f137e0e3db9bfe1a68f086b6ae2bb6114ad1a"
+    },
+    {
+      "chapter": 10,
+      "file": "10-形状就是接口：张量与批量计算.md",
+      "body_chars": 4232,
+      "han_chars": 3455,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "823bcbbb61b0680ce4570050cf209b59dfddb567a092e40bcfc30c34c963f7b3"
+    },
+    {
+      "chapter": 11,
+      "file": "11-词向量：编号怎样获得可学习的表示.md",
+      "body_chars": 4258,
+      "han_chars": 3315,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "37a88f0b70adc8aa6d84fa8f162be75b78c4e37280c3ed031e58fc533518b8e6"
+    },
+    {
+      "chapter": 12,
+      "file": "12-线性层、非线性与表达能力.md",
+      "body_chars": 4119,
+      "han_chars": 3135,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "bd3897477ff441c415684373cba8b68efdb96a9985e174332a8cd66ed6c38e68"
+    },
+    {
+      "chapter": 13,
+      "file": "13-从手算到自动求导：第一个训练程序.md",
+      "body_chars": 4220,
+      "han_chars": 3323,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "b0046397aeba3c3a7486bb53f14ef9a9cdccfb9d733637d396e6ac474290889e"
+    },
+    {
+      "chapter": 14,
+      "file": "14-学习率、动量与优化的步幅.md",
+      "body_chars": 4212,
+      "han_chars": 3110,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "af7298d4f08073bf19e0ea0a764b204ca09ba44a3e4278b8afade99a4dae1954"
+    },
+    {
+      "chapter": 15,
+      "file": "15-Adam与AdamW：为每个参数调整步幅.md",
+      "body_chars": 4204,
+      "han_chars": 2959,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "29ac9134cd5f0c051fb22dec1f16d2e0236a9f393caf0533c829833fb536cbba"
+    },
+    {
+      "chapter": 16,
+      "file": "16-让训练更稳：初始化、归一化与梯度裁剪.md",
+      "body_chars": 4116,
+      "han_chars": 3293,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "aed2789ed693794044920246d4dbf9c33792a9186097b71e59ff763f760b1f1c"
+    },
+    {
+      "chapter": 17,
+      "file": "17-数据流进模型之前：清洗、去重与切分.md",
+      "body_chars": 4259,
+      "han_chars": 3795,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "3e5bb4a67c33169126ba46c3872ec512d0d842bb1e94b2061105d5d892b92404"
+    },
+    {
+      "chapter": 18,
+      "file": "18-序列怎样成为训练样本：窗口、移位与掩码.md",
+      "body_chars": 4134,
+      "han_chars": 3293,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "515ae60cf99ed2195660598fd68602ed7c6c0dc091d82bf5f1ca30a0e3f12ee4"
+    },
+    {
+      "chapter": 19,
+      "file": "19-先做一个能工作的语言模型：bigram基线.md",
+      "body_chars": 4290,
+      "han_chars": 3274,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "f8965fcfe9d127434103844c294aa5af53eee0628354130498b73f2ec7c71c97"
+    },
+    {
+      "chapter": 20,
+      "file": "20-模型需要记住什么：上下文与条件概率.md",
+      "body_chars": 4197,
+      "han_chars": 3487,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "b0149d0d2daaa0e402e0ecc2ad9c2e396da8231de50d2818b510711479eaee0a"
+    },
+    {
+      "chapter": 21,
+      "file": "21-从检索线索到加权求和：注意力的直觉.md",
+      "body_chars": 5154,
+      "han_chars": 4124,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "ad1ef4ef64522627213a80c699bbba25036b00ef38ad3ff77cd85b7ecc2466f3"
+    },
+    {
+      "chapter": 22,
+      "file": "22-Q、K、V：把注意力一步一步算出来.md",
+      "body_chars": 5036,
+      "han_chars": 3759,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "aaa213ee0b2e23c3a882cb9ef5607b7623c8704e7c4f8d40637726c14347baf6"
+    },
+    {
+      "chapter": 23,
+      "file": "23-点积为什么要缩放：softmax的温度与稳定性.md",
+      "body_chars": 5028,
+      "han_chars": 3882,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "041fd11f0f5c8d11ea01e02d3136eb84393d949e4c957e37a4b5b7d70fd75b6a"
+    },
+    {
+      "chapter": 24,
+      "file": "24-只能看见过去：因果注意力与掩码.md",
+      "body_chars": 5037,
+      "han_chars": 4145,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "9948a4791d471f749a87c4b2859f11fd5fdf3703cf478abdf1ca3a2b89569ead"
+    },
+    {
+      "chapter": 25,
+      "file": "25-多头注意力：在不同子空间里寻找关系.md",
+      "body_chars": 5051,
+      "han_chars": 3838,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "8787d592f5416b7aff5270482dd74345d6b878002ea5b756ee7daceaa2d75845"
+    },
+    {
+      "chapter": 26,
+      "file": "26-顺序从哪里来：位置编码与RoPE.md",
+      "body_chars": 5045,
+      "han_chars": 3930,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "e9670ba19795f6618708240a2e7ac18d75ab6750d65b59c773dd0575f1692cd3"
+    },
+    {
+      "chapter": 27,
+      "file": "27-前馈网络：每个位置上的特征加工.md",
+      "body_chars": 5011,
+      "han_chars": 3552,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "5ad040a81c4a5ccfc2d59add9004b6e5dfdb1307e8691952c33544cfcda8f98d"
+    },
+    {
+      "chapter": 28,
+      "file": "28-残差连接与归一化：深层网络怎样传递信息.md",
+      "body_chars": 5029,
+      "han_chars": 3898,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "08f113ca46253b617da57068cd042ba94915278c638bdf9ee22746bd89b1b31f"
+    },
+    {
+      "chapter": 29,
+      "file": "29-搭起一个Transformer块.md",
+      "body_chars": 5056,
+      "han_chars": 3693,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "28ae970a0655c1990dd7dee8f89a33cdc51606dde719cb1adfcd20dfe75f7430"
+    },
+    {
+      "chapter": 30,
+      "file": "30-从Transformer块到完整的解码器模型.md",
+      "body_chars": 5018,
+      "han_chars": 3687,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "590612730f1672744ac044712ad65a5b9fb98551a8d6209befaa4dbccb2ea431"
+    },
+    {
+      "chapter": 31,
+      "file": "31-把一次语言模型训练完整走通.md",
+      "body_chars": 5253,
+      "han_chars": 4159,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "35b59891dae354302ab5ac88491b4c1409e768e38cb961f1939ae1b548cb0f76"
+    },
+    {
+      "chapter": 32,
+      "file": "32-参数量究竟怎样计算：设计约0.2B模型.md",
+      "body_chars": 5220,
+      "han_chars": 3757,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "c387c8910e27d1ba260c86dc017550572e0521ea94d4133f316914c8475d18a1"
+    },
+    {
+      "chapter": 33,
+      "file": "33-选择分词器与词表：训练自己的BPE.md",
+      "body_chars": 5322,
+      "han_chars": 4185,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "a7eed0542ebfa13ad4368d769201ad0a89b1b7d60eef81a0d0d3f20424d1b912"
+    },
+    {
+      "chapter": 34,
+      "file": "34-准备可追溯的训练语料.md",
+      "body_chars": 5261,
+      "han_chars": 4442,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "aa1325d2cef46bf51f2e5a49ce3f0484a07fe7099033465f7f7e4ec7b1f34db7"
+    },
+    {
+      "chapter": 35,
+      "file": "35-文档打包、长度分布与训练目标.md",
+      "body_chars": 5294,
+      "han_chars": 4197,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "005319aa2623335bf91344452310169daa34fd8080e2c7cd7c59e333f3e8f58c"
+    },
+    {
+      "chapter": 36,
+      "file": "36-实现本书的195M模型.md",
+      "body_chars": 5797,
+      "han_chars": 4251,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "6b0a9c0572202bfdd42d76fb0e4acfe3fd2d67f68c09f87de8323d5b249dbc21"
+    },
+    {
+      "chapter": 37,
+      "file": "37-用微型实验检查模型是否真的能学.md",
+      "body_chars": 5225,
+      "han_chars": 4476,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "7f077cc60dece2e972213d98bc40ecabc3d3f33fef06ea8dbe959ddb01c86285"
+    },
+    {
+      "chapter": 38,
+      "file": "38-写好训练循环：累计梯度与有效批次.md",
+      "body_chars": 5400,
+      "han_chars": 4153,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "80ff271edcf7ae1a142c9f51a63dc49d942dc13dd8e5db4f828f04b2a52ef273"
+    },
+    {
+      "chapter": 39,
+      "file": "39-混合精度：把显存花在值得保存的地方.md",
+      "body_chars": 5242,
+      "han_chars": 3766,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "fa170a6af596127a18ea560a59fc4e75e41e21632cec3e582bdea750b5640233"
+    },
+    {
+      "chapter": 40,
+      "file": "40-训练显存账本：参数、梯度、状态与激活.md",
+      "body_chars": 5328,
+      "han_chars": 3992,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "a36bc0feaad6980c2933e2fc1ad4cdd7be521b11f711689ad30d24b92f8af57c"
+    },
+    {
+      "chapter": 41,
+      "file": "41-激活检查点：用重新计算换显存.md",
+      "body_chars": 5202,
+      "han_chars": 4312,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "962da19e132cf469eadc2233a1cbf66328615fc1b0e639c0edd1961e0366c293"
+    },
+    {
+      "chapter": 42,
+      "file": "42-从一张卡到多张卡：数据并行与同步.md",
+      "body_chars": 5306,
+      "han_chars": 4160,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "9d0d658e7b145851721ec254f2c2d05566987db89633d7fabdc2414e217d879d"
+    },
+    {
+      "chapter": 43,
+      "file": "43-保存与恢复：让训练经得起中断.md",
+      "body_chars": 5506,
+      "han_chars": 4358,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "b9981aa4f3c51246837c3299b92198af4eb52ff2b0e8f5fc7199a7b94da5c232"
+    },
+    {
+      "chapter": 44,
+      "file": "44-监控一次训练：损失曲线、吞吐与异常.md",
+      "body_chars": 5248,
+      "han_chars": 4221,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "360c4691d318866c028f4bc5d9b443e96076cd896b488fea035c9b5386f9256f"
+    },
+    {
+      "chapter": 45,
+      "file": "45-评估模型：困惑度之外还要看什么.md",
+      "body_chars": 5223,
+      "han_chars": 4316,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "2b6be1515ca9cb2c57203b041ae7b6f5087ff97788a3c58705b7937c93533ced"
+    },
+    {
+      "chapter": 46,
+      "file": "46-完成一次195M训练项目的交付.md",
+      "body_chars": 5239,
+      "han_chars": 4258,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "ed677a83638e175803c57bb771f490bfd93ef5227d7a6160579c48dd0ec4bc04"
+    },
+    {
+      "chapter": 47,
+      "file": "47-指令微调：让续写模型学会回应.md",
+      "body_chars": 5488,
+      "han_chars": 4176,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "9b8a3462e4002ec5fc1dbdd84fee94ba6f413a17e11f2351ad750846ad748a71"
+    },
+    {
+      "chapter": 48,
+      "file": "48-LoRA与参数高效微调.md",
+      "body_chars": 5465,
+      "han_chars": 3931,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "ce1d98cca179495aaeb65f99ead13a7a348a8a2dadbf3841d1edb1ded2be799e"
+    },
+    {
+      "chapter": 49,
+      "file": "49-偏好优化：从成对回答到DPO.md",
+      "body_chars": 5237,
+      "han_chars": 3956,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "2e100f08707dba1c325c8782fa133e37128e41e46df3b7c5c397b4dd1eb146fb"
+    },
+    {
+      "chapter": 50,
+      "file": "50-奖励与策略：理解语言模型强化学习.md",
+      "body_chars": 5252,
+      "han_chars": 3935,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "01b4196c48e7fde081407a6ebdad37d9f265e3b26c4c63d5af8ef351120a0538"
+    },
+    {
+      "chapter": 51,
+      "file": "51-蒸馏：让小模型学习大模型的行为.md",
+      "body_chars": 5294,
+      "han_chars": 4037,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "c69d903466856a6cdbbd5d215f0979eaa766fc3fa7af29569ceb43f5af2449f1"
+    },
+    {
+      "chapter": 52,
+      "file": "52-数据配比与课程：训练顺序为什么重要.md",
+      "body_chars": 5226,
+      "han_chars": 4256,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "38a692133b52273a72733bf16c0b7e8a09bb1b3f0072e7e7987eb8a1a6faaf52"
+    },
+    {
+      "chapter": 53,
+      "file": "53-Scaling Laws：从实验曲线到预算判断.md",
+      "body_chars": 5217,
+      "han_chars": 3992,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "68866ddf8f87743cafca2d5013ec72fca4d947175278d5d76c43ed352c0cb779"
+    },
+    {
+      "chapter": 54,
+      "file": "54-计算最优与数据最优：重新理解Chinchilla.md",
+      "body_chars": 5253,
+      "han_chars": 4206,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "36921597d13a39f0a12e5d0f2cfe6c91ae68fb8406987d9982939714ce20c38c"
+    },
+    {
+      "chapter": 55,
+      "file": "55-为195M项目建立计算与成本预算.md",
+      "body_chars": 5237,
+      "han_chars": 3475,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "eff8935599d07e1868f62e2f9028f2cc1c02a710a782d4d0fee52bc80f5b4034"
+    },
+    {
+      "chapter": 56,
+      "file": "56-怎样做可信的消融实验.md",
+      "body_chars": 5216,
+      "han_chars": 4174,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "6df761b8ae2a47b481e2b5f7b5e727a19966527895964e53941a41c46ad0853a"
+    },
+    {
+      "chapter": 57,
+      "file": "57-从训练目标到产品指标：评测闭环.md",
+      "body_chars": 5212,
+      "han_chars": 4512,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "b826414e01ff0c765bb2d5ef9f0335818eea3a21170fed41184d9736d953f47c"
+    },
+    {
+      "chapter": 58,
+      "file": "58-生成过程：温度、top-k与top-p.md",
+      "body_chars": 5212,
+      "han_chars": 3883,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "f7d491f345f8171a84bfa8feee7539861a764c68d62e3a5e6866d2d23362057f"
+    },
+    {
+      "chapter": 59,
+      "file": "59-推理分成两段：prefill与decode.md",
+      "body_chars": 5215,
+      "han_chars": 3727,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "9befabda20ee328539790207fec5774b84f8d0c439a0a5a01bd9e9410dff52d7"
+    },
+    {
+      "chapter": 60,
+      "file": "60-KV Cache：为什么生成越长越占内存.md",
+      "body_chars": 5210,
+      "han_chars": 3777,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "ac9e312281dee13e1bdf9d1ed8d6581fca83bef969e106a638301c294b2d6e05"
+    },
+    {
+      "chapter": 61,
+      "file": "61-从MHA到GQA与MQA：减少缓存的代价.md",
+      "body_chars": 5206,
+      "han_chars": 3730,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "0da2e41cd8f7eb99955e8dd8b06b2a481ece25c5c8660d55345e7bb0e1501d04"
+    },
+    {
+      "chapter": 62,
+      "file": "62-FlashAttention：少搬数据怎样更快.md",
+      "body_chars": 5220,
+      "han_chars": 3669,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "fc019b21ac03e6cc8f857edca3d90176b77d88c5f437d64bea1720db73383783"
+    },
+    {
+      "chapter": 63,
+      "file": "63-量化：用更少的位保存参数.md",
+      "body_chars": 5191,
+      "han_chars": 3821,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "160dd1143d425f0368f7669fc801f1a5154f8cdb6827ec2c3ecf7ecd203f4fde"
+    },
+    {
+      "chapter": 64,
+      "file": "64-连续批处理与PagedAttention.md",
+      "body_chars": 5101,
+      "han_chars": 4000,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "5ff1f4a49fbf8bdc72d00753fda7ff6e5f3d1a768833b736cc58a31b9670f0a7"
+    },
+    {
+      "chapter": 65,
+      "file": "65-推测解码：先猜再验证.md",
+      "body_chars": 5126,
+      "han_chars": 3847,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "e02ef131baeb93bdc57d41cc4d2a57ee2e194c85419ab50dc8f02fa00e624572"
+    },
+    {
+      "chapter": 66,
+      "file": "66-长上下文：长度、位置与有效信息.md",
+      "body_chars": 5489,
+      "han_chars": 4595,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "1fa2f040dad06008c145b8b3878fec5ef2d6b60af3062fa3594fbd7dd0dd56f6"
+    },
+    {
+      "chapter": 67,
+      "file": "67-把模型变成服务：吞吐、延迟与容量.md",
+      "body_chars": 5381,
+      "han_chars": 4398,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "aa3e2a83d6c33a805f81d027268fc4808553f203bc4c33437baaea87e825eba4"
+    },
+    {
+      "chapter": 68,
+      "file": "68-流式交付工程：从显存到用户屏幕.md",
+      "body_chars": 6195,
+      "han_chars": 5019,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "fd8cf1e9176402bdac2606ce7a8ba3a8bbe1b0ef347130fac17516875ba064af"
+    },
+    {
+      "chapter": 69,
+      "file": "69-断开、取消与背压：让推理资源及时回收.md",
+      "body_chars": 5847,
+      "han_chars": 4952,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "0867f4093608caecbd625e6d857ff8104244b21f3dc25246712efd921f9c7fe5"
+    },
+    {
+      "chapter": 70,
+      "file": "70-提示工程：把需求写成可检查的接口.md",
+      "body_chars": 5274,
+      "han_chars": 4722,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "d8e7b1b38471b28906590302cfa6df2cfa5c625e3a25c742930f3b4afa187804"
+    },
+    {
+      "chapter": 71,
+      "file": "71-结构化输出与工具调用.md",
+      "body_chars": 5437,
+      "han_chars": 4325,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "926489b106ca40bf7444d954029f7505993c8ce3f6003d91010e5582e7f44a48"
+    },
+    {
+      "chapter": 72,
+      "file": "72-检索增强生成：让回答找到外部证据.md",
+      "body_chars": 5266,
+      "han_chars": 4471,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "8333ecc5d3f3b339ab8cad2a8f5997502c2da1a51d33029eae8e702f478edc7c"
+    },
+    {
+      "chapter": 73,
+      "file": "73-构建一个可评估的RAG系统.md",
+      "body_chars": 5270,
+      "han_chars": 4533,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "ffe8c183d03605523e777ed555fe5a79969c13cd2cb532e41c4ebb13cf3703e5"
+    },
+    {
+      "chapter": 74,
+      "file": "74-Agent循环：观察、决策、行动与反馈.md",
+      "body_chars": 5234,
+      "han_chars": 4330,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "f25009929892da4a8c1ab3790a4dd66d71967f75c7c1da219d1cad4d4f9f1776"
+    },
+    {
+      "chapter": 75,
+      "file": "75-工具与权限：让行动有清楚的边界.md",
+      "body_chars": 5082,
+      "han_chars": 4439,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "8854654f375e817979dc4fd85077acb0f590a2b84dcc5bfbc113ae4fc4248e8f"
+    },
+    {
+      "chapter": 76,
+      "file": "76-记忆与状态：Agent怎样跨步骤工作.md",
+      "body_chars": 5131,
+      "han_chars": 4356,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "ebd4efc0418508d36348d73fc1d4e943c37119d9c86b0506db55a3eb60712d74"
+    },
+    {
+      "chapter": 77,
+      "file": "77-规划、反思与停止条件.md",
+      "body_chars": 5016,
+      "han_chars": 4418,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "8f7ba360cdd8449b09c5caf3c301e1983a18602c8c9be1a08f0fabb76ab116bb"
+    },
+    {
+      "chapter": 78,
+      "file": "78-单Agent与多Agent：什么时候值得协作.md",
+      "body_chars": 5111,
+      "han_chars": 4365,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "e1f79ce7b6982fd8e54417665fbdc3dbd265cdc4e4b839c7ac0fc7112cb2b71f"
+    },
+    {
+      "chapter": 79,
+      "file": "79-构建一个研究助手：从问题到带证据的报告.md",
+      "body_chars": 5201,
+      "han_chars": 4536,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "08e710724b94c7d60d98f4cfbad74ad544e81fead7c42774c3899a29903d21d8"
+    },
+    {
+      "chapter": 80,
+      "file": "80-评估Agent：结果、过程与成本.md",
+      "body_chars": 5215,
+      "han_chars": 4616,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "d9e290631ca2c040cbc2066f8437185a1128dcb8b4d0761a21a5f587982fd00f"
+    },
+    {
+      "chapter": 81,
+      "file": "81-Agent harness与Super-agent：从会话到持久运行系统.md",
+      "body_chars": 7289,
+      "han_chars": 5957,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "c67b569906fcbb91d12e96987bb45accfdff70510351eda93b83ad2849ffefbd"
+    },
+    {
+      "chapter": 82,
+      "file": "82-安全与对抗：提示注入、数据边界与供应链.md",
+      "body_chars": 5194,
+      "han_chars": 4647,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "a0a5441d4b9d65bcaea637644f3ed0379e4a76f790bc4d8036b263f7b9073fcd"
+    },
+    {
+      "chapter": 83,
+      "file": "83-多模态：文字、图像与声音怎样进入同一个系统.md",
+      "body_chars": 5094,
+      "han_chars": 4280,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "229c9f570109be0ee7b8db647b557c20fd436deb79ae808de5709579b24565af"
+    },
+    {
+      "chapter": 84,
+      "file": "84-稀疏专家MoE：总参数与激活参数.md",
+      "body_chars": 5352,
+      "han_chars": 4277,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "18c1c9486bf15441b27a53571bcfbed744a1c5d30edd905cf15e803da6cdffe0"
+    },
+    {
+      "chapter": 85,
+      "file": "85-状态空间模型与混合架构.md",
+      "body_chars": 5121,
+      "han_chars": 4258,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "70f04a34f4a4add38a307c5f356120bbdd2c30473567c421e8e6156f75d99af3"
+    },
+    {
+      "chapter": 86,
+      "file": "86-从DeepSeek-V3看架构与训练的工程取舍.md",
+      "body_chars": 5157,
+      "han_chars": 4265,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "96188033f3fc3d007ad1ed495005394c91be3f0a2a3c1e4ce36917400b2c7720"
+    },
+    {
+      "chapter": 87,
+      "file": "87-从DeepSeek-R1看推理训练与蒸馏.md",
+      "body_chars": 5157,
+      "han_chars": 4388,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "5fd8232424c6c8964588188a517ad93f0c9fc5e2a281ccffa2ba06f2f495b7b3"
+    },
+    {
+      "chapter": 88,
+      "file": "88-从Qwen3看开放模型的使用与评估.md",
+      "body_chars": 5228,
+      "han_chars": 4273,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "e4b3781bab563b014939010e842da1c4dc730f1868a880c9f4238dba79638b3b"
+    },
+    {
+      "chapter": 89,
+      "file": "89-测试时计算：多想一会儿怎样才算值得.md",
+      "body_chars": 5154,
+      "han_chars": 4467,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "b03a41dce5b603e853884d0397e0fe3acc61d0a2d4300965ebda3ebf5e464bc3"
+    },
+    {
+      "chapter": 90,
+      "file": "90-读懂一篇前沿论文：主张、证据与复现.md",
+      "body_chars": 5210,
+      "han_chars": 4507,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "0c620001e637fd755fffa10cddf832cc4f566bb53276ba7b3ffd8c3653f7e80b"
+    },
+    {
+      "chapter": 91,
+      "file": "91-完成你的智能系统：从模型到可交付产品.md",
+      "body_chars": 5349,
+      "han_chars": 4531,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "06ce9b71f2b59849ac9d63f03705e6716748f1cb7b7007b64e86e33c45b48d8e"
+    },
+    {
+      "chapter": 92,
+      "file": "92-站在前沿继续学习：建立自己的研究地图.md",
+      "body_chars": 5189,
+      "han_chars": 4569,
+      "has_exercise": true,
+      "has_hint": true,
+      "sha256": "327f74ead5c086e83234e55f848c5b2ec8ad7f611db0c3e4d79e0d0121be4586"
+    }
+  ]
+}

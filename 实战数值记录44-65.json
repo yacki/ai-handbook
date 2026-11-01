@@ -1,0 +1,246 @@
+{
+  "scope": "CPU arithmetic labs; not 195M training",
+  "results": {
+    "monitor": {
+      "target_tokens": 1000,
+      "weighted_loss": 2.8,
+      "target_tokens_per_second": 1000.0,
+      "wrong_unweighted_loss": 2.75
+    },
+    "sft_mask": {
+      "loss_sum": 2.995732273553991,
+      "token_count": 3,
+      "loss": 0.9985774245179969,
+      "first_supervised_input_position": 3
+    },
+    "lora": {
+      "delta": [
+        [
+          0.1,
+          0.2,
+          -0.1
+        ],
+        [
+          0.2,
+          0.4,
+          -0.2
+        ]
+      ],
+      "separate_output": [
+        [
+          -0.9
+        ],
+        [
+          5.2
+        ]
+      ],
+      "merged_output": [
+        [
+          -0.8999999999999999
+        ],
+        [
+          5.2
+        ]
+      ],
+      "qv_rank8_trainable": 589824,
+      "trainable_fraction": 0.0030236101432671524
+    },
+    "dpo": {
+      "relative_margin": 0.7000000000000002,
+      "scaled_margin": 0.14000000000000004,
+      "loss": 0.6255951823371514,
+      "d_loss_d_policy_logp_w": -0.0930114109683571,
+      "d_loss_d_policy_logp_l": 0.0930114109683571
+    },
+    "bandit": {
+      "description": "two-action exact-gradient educational bandit",
+      "initial": {
+        "step": 0,
+        "p_rewarded_action": 0.5,
+        "expected_reward": 0.5
+      },
+      "final": {
+        "step": 19,
+        "p_rewarded_action": 0.8610528853605403,
+        "expected_reward": 0.8610528853605403
+      }
+    },
+    "distillation": {
+      "temperature": 2,
+      "teacher": [
+        0.506480391055654,
+        0.3071958857184984,
+        0.1863237232258476
+      ],
+      "student": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "kl": 0.07842095194127838,
+      "T_squared_KL": 0.3136838077651135,
+      "gradient_T_squared_KL": [
+        -0.3462941154446414,
+        0.05227489522966988,
+        0.29401922021497146
+      ]
+    },
+    "budget": {
+      "parameter_count": 195072768,
+      "cases": [
+        {
+          "tokens": 50000000,
+          "approx_flops": 58521830400000000,
+          "assumed_tokens_per_second": 20000,
+          "active_hours": 0.6944444444444444,
+          "availability": 0.8,
+          "wall_hours": 0.8680555555555555,
+          "assumed_currency_per_hour": 2.0,
+          "estimated_training_cost": 1.736111111111111
+        },
+        {
+          "tokens": 100000000,
+          "approx_flops": 117043660800000000,
+          "assumed_tokens_per_second": 20000,
+          "active_hours": 1.3888888888888888,
+          "availability": 0.8,
+          "wall_hours": 1.736111111111111,
+          "assumed_currency_per_hour": 2.0,
+          "estimated_training_cost": 3.472222222222222
+        },
+        {
+          "tokens": 3901455360,
+          "approx_flops": 4566406177821818880,
+          "assumed_tokens_per_second": 20000,
+          "active_hours": 54.18688,
+          "availability": 0.8,
+          "wall_hours": 67.7336,
+          "assumed_currency_per_hour": 2.0,
+          "estimated_training_cost": 135.4672
+        },
+        {
+          "tokens": 4000000000,
+          "approx_flops": 4681746432000000000,
+          "assumed_tokens_per_second": 20000,
+          "active_hours": 55.55555555555556,
+          "availability": 0.8,
+          "wall_hours": 69.44444444444444,
+          "assumed_currency_per_hour": 2.0,
+          "estimated_training_cost": 138.88888888888889
+        }
+      ],
+      "note": "planning assumptions; not a GPU benchmark"
+    },
+    "sampling": {
+      "base": [
+        0.6439142598879724,
+        0.23688281808991013,
+        0.08714431874203257,
+        0.03205860328008499
+      ],
+      "temperature_2": [
+        0.45505423392341127,
+        0.27600434470659363,
+        0.16740509727844333,
+        0.1015363240915518
+      ],
+      "top_p": 0.8,
+      "retained_indices": [
+        0,
+        1
+      ],
+      "filtered": [
+        0.7310585786300049,
+        0.2689414213699951,
+        0.0,
+        0.0
+      ]
+    },
+    "kv": {
+      "MHA_bytes_per_token": 73728,
+      "MHA_2048_one_sequence_bytes": 150994944,
+      "MHA_2048_one_sequence_MiB": 144.0,
+      "GQA4_bytes_per_token": 24576,
+      "MQA_bytes_per_token": 6144
+    },
+    "online_softmax": {
+      "direct": 24.39525791096933,
+      "blocked": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    "quantization": {
+      "weights": [
+        -1.0,
+        -0.4,
+        0.2,
+        0.9
+      ],
+      "scale": 0.007874015748031496,
+      "int8": [
+        -127,
+        -51,
+        25,
+        114
+      ],
+      "restored": [
+        -1.0,
+        -0.4015748031496063,
+        0.19685039370078738,
+        0.8976377952755905
+      ],
+      "max_abs_error": 0.003149606299212626,
+      "raw_fp16_bytes": 390145536,
+      "raw_int8_bytes": 195072768,
+      "raw_int4_bytes": 97536384
+    },
+    "paging": {
+      "lengths": [
+        17,
+        33,
+        5
+      ],
+      "pages": [
+        2,
+        3,
+        1
+      ],
+      "used_slots": 55,
+      "allocated_slots": 96,
+      "tail_waste": 41
+    },
+    "speculative": {
+      "target_p": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "draft_q": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "acceptance": [
+        1.0,
+        0.6,
+        0.6666666666666667
+      ],
+      "residual_distribution": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "exact_output": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "trials": 200000,
+      "seed": 65,
+      "empirical_output": [
+        0.50008,
+        0.300345,
+        0.199575
+      ]
+    }
+  }
+}

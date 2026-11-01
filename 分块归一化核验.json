@@ -1,0 +1,78 @@
+{
+  "scope": "CPU numerical identity, not GPU benchmark",
+  "reference": 24.39525791096933,
+  "cases": [
+    {
+      "score_shift": -1000.0,
+      "block_size": 1,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": -1000.0,
+      "block_size": 2,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": -1000.0,
+      "block_size": 3,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": -1000.0,
+      "block_size": 4,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 0.0,
+      "block_size": 1,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 0.0,
+      "block_size": 2,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 0.0,
+      "block_size": 3,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 0.0,
+      "block_size": 4,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 1000.0,
+      "block_size": 1,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 1000.0,
+      "block_size": 2,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 1000.0,
+      "block_size": 3,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    },
+    {
+      "score_shift": 1000.0,
+      "block_size": 4,
+      "output": 24.395257910969335,
+      "absolute_error": 3.552713678800501e-15
+    }
+  ]
+}

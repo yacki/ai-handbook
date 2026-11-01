@@ -1,0 +1,782 @@
+[
+  {
+    "id": "attention",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "final_url": "https://arxiv.org/abs/1706.03762",
+    "status": 200,
+    "chars": 4912,
+    "checked": "2026-11-01",
+    "sha256": "5864f475288dc0e9c62ead2a5ab61e46b64167e5e6f924e40621f56bffeef918"
+  },
+  {
+    "id": "scaling",
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "final_url": "https://arxiv.org/abs/2001.08361",
+    "status": 200,
+    "chars": 4390,
+    "checked": "2026-11-01",
+    "sha256": "a940c4bbfd6553275348e2749dc4da3997456f683e6fec1457a1409306e3e108"
+  },
+  {
+    "id": "chinchilla",
+    "title": "Training Compute-Optimal Large Language Models",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "final_url": "https://arxiv.org/abs/2203.15556",
+    "status": 200,
+    "chars": 4938,
+    "checked": "2026-11-01",
+    "sha256": "9a41adb996f6693c7a3aeb411eeefd92f75ebe3ba20eec8b927e1ef9e20adbaa"
+  },
+  {
+    "id": "rope",
+    "title": "RoFormer",
+    "url": "https://arxiv.org/abs/2104.09864",
+    "status": 200,
+    "chars": 5022,
+    "checked": "2026-11-01",
+    "sha256": "b78bfd0f0a9c21ea1a88e461c655ed0108f1bb2ba03b87ab90905c116f810e2f"
+  },
+  {
+    "id": "rmsnorm",
+    "title": "Root Mean Square Layer Normalization",
+    "url": "https://arxiv.org/abs/1910.07467",
+    "status": 200,
+    "chars": 4649,
+    "checked": "2026-11-01",
+    "sha256": "364c3c864910d693b2259630683c9dea4925fb64c24ce8215fb755814ec6aefb"
+  },
+  {
+    "id": "swiglu",
+    "title": "GLU Variants Improve Transformer",
+    "url": "https://arxiv.org/abs/2002.05202",
+    "final_url": "https://arxiv.org/abs/2002.05202",
+    "status": 200,
+    "chars": 3832,
+    "checked": "2026-11-01",
+    "sha256": "913a675da4567e889561b0e27b1405d90630e9249f728f9d23e0299e4310167c"
+  },
+  {
+    "id": "autograd",
+    "title": "PyTorch Autograd",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/docs/source/notes/autograd.rst",
+    "final_url": "https://docs.pytorch.org/docs/stable/notes/autograd.html",
+    "status": 200,
+    "chars": 45157,
+    "checked": "2026-11-01",
+    "sha256": "40473b9c8359fa054f1290daa6b373ba0a3e85ea84d5f3d2ba0cdfeb8d02806b"
+  },
+  {
+    "id": "adamw",
+    "title": "PyTorch AdamW",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/torch/optim/adamw.py",
+    "final_url": "https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html",
+    "status": 200,
+    "chars": 31153,
+    "checked": "2026-11-01",
+    "sha256": "975e5196a39e7c865e7c1c5fa50310aad69d908064e811282fc39c653ade6a40"
+  },
+  {
+    "id": "amp",
+    "title": "PyTorch Automatic Mixed Precision",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/docs/source/amp.rst",
+    "final_url": "https://docs.pytorch.org/docs/stable/amp.html",
+    "status": 200,
+    "chars": 15552,
+    "checked": "2026-11-01",
+    "sha256": "915965068bf1738457607e677fa5515cd0c1c21759da04ed5de23b817ea27933"
+  },
+  {
+    "id": "checkpoint",
+    "title": "PyTorch Checkpoint",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/torch/utils/checkpoint.py",
+    "final_url": "https://docs.pytorch.org/docs/stable/checkpoint.html",
+    "status": 200,
+    "chars": 66118,
+    "checked": "2026-11-01",
+    "sha256": "30600caab86672ad12919bb73e41066cc84fc92075fca79cf12f89fbefb6bc7b"
+  },
+  {
+    "id": "ddp",
+    "title": "PyTorch DistributedDataParallel",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/torch/nn/parallel/distributed.py",
+    "final_url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html",
+    "status": 200,
+    "chars": 108479,
+    "checked": "2026-11-01",
+    "sha256": "176ad3892f0d7631483de5a2545ea9bbd976bc36a8fd183eab6b851fddbcd970"
+  },
+  {
+    "id": "bpe",
+    "title": "Hugging Face Tokenizers BPE",
+    "url": "https://huggingface.co/docs/tokenizers/pipeline",
+    "final_url": "https://huggingface.co/docs/tokenizers/pipeline",
+    "status": 200,
+    "chars": 10774,
+    "checked": "2026-11-01",
+    "sha256": "0bf3191fbcb9fa267ae879e8cae27a6bbc5c9a477485eace9a7bb239772fbee2"
+  },
+  {
+    "id": "cache",
+    "title": "Hugging Face KV Cache",
+    "url": "https://huggingface.co/docs/transformers/kv_cache",
+    "final_url": "https://huggingface.co/docs/transformers/kv_cache",
+    "status": 200,
+    "chars": 23640,
+    "checked": "2026-11-01",
+    "sha256": "72235f29ef35fdcd2fbf01441d0630dcb3134355c391cec489fc7287c707c885"
+  },
+  {
+    "id": "flashattention",
+    "title": "FlashAttention official repository",
+    "url": "https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/Dao-AILab/flash-attention/main/README.md",
+    "status": 200,
+    "chars": 25265,
+    "checked": "2026-11-01",
+    "sha256": "0dbaba56da1c8372d460956e2609bfb89acf8f3aadd65d132b1697d221069619"
+  },
+  {
+    "id": "pagedattention",
+    "title": "vLLM PagedAttention",
+    "url": "https://blog.vllm.ai/2023/06/20/vllm.html",
+    "final_url": "https://vllm.ai/blog/2023-06-20-vllm",
+    "status": 200,
+    "chars": 10452,
+    "checked": "2026-11-01",
+    "sha256": "98afe9946939daa060117de386399cc42fed543521cda6b049b54aa25588a239"
+  },
+  {
+    "id": "speculative",
+    "title": "Fast Inference from Transformers via Speculative Decoding",
+    "url": "https://arxiv.org/abs/2211.17192",
+    "status": 200,
+    "chars": 4612,
+    "checked": "2026-11-01",
+    "sha256": "a95c4bb03670c91e4e0c9e9d0a63de3b1dfb2d80bcb37d099e7ef4c224d0875c"
+  },
+  {
+    "id": "lora",
+    "title": "Microsoft LoRA",
+    "url": "https://raw.githubusercontent.com/microsoft/LoRA/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/microsoft/LoRA/main/README.md",
+    "status": 200,
+    "chars": 14344,
+    "checked": "2026-11-01",
+    "sha256": "ce0b726fedd1198ebd841093b53ff5490672ffb2264479d8be044b5826a791c6"
+  },
+  {
+    "id": "dpo",
+    "title": "Direct Preference Optimization official repository",
+    "url": "https://raw.githubusercontent.com/eric-mitchell/direct-preference-optimization/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/eric-mitchell/direct-preference-optimization/main/README.md",
+    "status": 200,
+    "chars": 11880,
+    "checked": "2026-11-01",
+    "sha256": "d639655c1843ca1c73e09c057e06dac58f04ddf1cbe26546fb03df3a0d1237d0"
+  },
+  {
+    "id": "deepseekv3",
+    "title": "DeepSeek-V3 official repository",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README.md",
+    "status": 200,
+    "chars": 20837,
+    "checked": "2026-11-01",
+    "sha256": "1f766f151bb4d501b18c9d1e229ac25682c68c75893d6d3bc9734e2a60125c0e"
+  },
+  {
+    "id": "deepseekr1",
+    "title": "DeepSeek-R1 official repository",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-R1/main/README.md",
+    "status": 200,
+    "chars": 19346,
+    "checked": "2026-11-01",
+    "sha256": "4ed979e497121ae4dd9f1573da1668219f43be55d62cc0bf2be5429211a67486"
+  },
+  {
+    "id": "qwen3",
+    "title": "Qwen3 official repository",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen3/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/QwenLM/Qwen3/main/README.md",
+    "status": 200,
+    "chars": 24685,
+    "checked": "2026-11-01",
+    "sha256": "0b2c2bb11806f7a00c8465f2586e2e99f15de28622fd5c9b70b83ae1ab18c75d"
+  },
+  {
+    "id": "mamba",
+    "title": "Mamba official repository",
+    "url": "https://raw.githubusercontent.com/state-spaces/mamba/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/state-spaces/mamba/main/README.md",
+    "status": 200,
+    "chars": 14829,
+    "checked": "2026-11-01",
+    "sha256": "46f3e7412d724fb9bedba32130b73df53625483ece8df92d29146e690434acb9"
+  },
+  {
+    "id": "switch",
+    "title": "Switch Transformers",
+    "url": "https://arxiv.org/abs/2101.03961",
+    "final_url": "https://arxiv.org/abs/2101.03961",
+    "status": 200,
+    "chars": 5048,
+    "checked": "2026-11-01",
+    "sha256": "3df37620ab45bbc751bf83cafb06600fd193a3273811e8355cd1c2a9a88f7ebd"
+  },
+  {
+    "id": "agents",
+    "title": "OpenAI Agents guide",
+    "url": "https://developers.openai.com/api/docs/guides/agents",
+    "final_url": "https://developers.openai.com/api/docs/guides/agents",
+    "status": 200,
+    "chars": 15942,
+    "checked": "2026-11-01",
+    "sha256": "4f4fc73037bcde10f00c63bf1482a87f5ce30d339fdfecdcb9357de538d21e01"
+  },
+  {
+    "id": "tools",
+    "title": "OpenAI Function Calling guide",
+    "url": "https://developers.openai.com/api/docs/guides/function-calling",
+    "final_url": "https://developers.openai.com/api/docs/guides/function-calling",
+    "status": 200,
+    "chars": 115538,
+    "checked": "2026-11-01",
+    "sha256": "638f2ebebb376a0a4be80fbf23aca2310d0d989d319945f027d9f8c3387971ba"
+  },
+  {
+    "id": "evals",
+    "title": "OpenAI Evaluation best practices",
+    "url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+    "final_url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices",
+    "status": 200,
+    "chars": 33537,
+    "checked": "2026-11-01",
+    "sha256": "a355b9a075fa25d93321f53cd88bc6ee618798a2743c7c733deb5f2f71d2d1c7"
+  },
+  {
+    "id": "instructgpt",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "chars": 5269,
+    "title": "instructgpt",
+    "status": 200,
+    "sha256": "4c9ef7509a9671810687c1ed84222a46bc1549434398e1b4659679eaddf9f6e2"
+  },
+  {
+    "id": "distill",
+    "url": "https://arxiv.org/abs/1503.02531",
+    "chars": 4589,
+    "title": "distill",
+    "status": 200,
+    "sha256": "eabcf1edc6166cd608c14e32af223c66ae3d926b84a52edb6f959c943b966235"
+  },
+  {
+    "id": "gqa",
+    "title": "gqa",
+    "url": "https://arxiv.org/abs/2305.13245",
+    "chars": 4517,
+    "status": 200,
+    "sha256": "12f78e3e05ccf934c868a32e95aae9c124a7efe2a680b821e52fe3c8956adb42"
+  },
+  {
+    "id": "quant",
+    "url": "https://arxiv.org/abs/2208.07339",
+    "chars": 5266,
+    "title": "quant",
+    "status": 200,
+    "sha256": "a9cb4551af48c4ce6055e75ac547bb0d407003633e61696175cb0fe297a3f85c"
+  },
+  {
+    "id": "ppo",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "chars": 4597,
+    "title": "ppo",
+    "status": 200,
+    "sha256": "58c2142c434c45c15dd66e05e29ec5ebd007f121da8cf070e82cae0374fb169d"
+  },
+  {
+    "id": "dpo_paper",
+    "url": "https://arxiv.org/html/2305.18290v2",
+    "chars": 110113,
+    "title": "dpo_paper",
+    "status": 200,
+    "sha256": "315a49b69d0bd4b23e7710c96d57317f21d8e8c663677ba66efbd9d37e1a8222"
+  },
+  {
+    "id": "chinchilla_full",
+    "url": "https://arxiv.org/html/2203.15556v1",
+    "error": "<urlopen error _ssl.c:989: The handshake operation timed out>",
+    "title": "chinchilla_full"
+  },
+  {
+    "id": "speculative_full",
+    "url": "https://arxiv.org/html/2211.17192v2",
+    "chars": 56110,
+    "title": "speculative_full",
+    "status": 200,
+    "sha256": "b814489b3be2488b6aa1b460c503dd0d52bab6fe4cb79ec368cda5385039e303"
+  },
+  {
+    "id": "distill_full",
+    "url": "https://arxiv.org/html/1503.02531v1",
+    "chars": 37525,
+    "read_sections": "section 2 Distillation, section 2.1 gradients and high temperature approximation",
+    "checked": "2026-11-01",
+    "title": "distill_full",
+    "status": 200,
+    "sha256": "8ab4dbee7a5469f1cb9a99f45c096032ba6e4829e942cedb626e540a76d04d95"
+  },
+  {
+    "id": "chinchilla_excerpt",
+    "url": "https://arxiv.org/html/2203.15556v1",
+    "partial_download": true,
+    "raw_bytes_received": 153373,
+    "raw_bytes_total": 476397,
+    "text_chars": 36669,
+    "read_sections": "introduction; sections 3.1, 3.2, 3.3; Table 1 and Table 3; 70B/1.4T original statement",
+    "checked": "2026-11-01",
+    "title": "chinchilla_excerpt",
+    "chars": 36669,
+    "status": 200,
+    "sha256": "9613cf3f4db3866a47b99f5c31bca7e77e3fdbb8e7f5ec35be69420b20fd166c"
+  },
+  {
+    "id": "mqa",
+    "url": "https://arxiv.org/abs/1911.02150",
+    "title": "mqa",
+    "chars": 4319,
+    "checked": "2026-11-01",
+    "status": 200,
+    "sha256": "279d54814dc6769e0335fe8e8e99f62b2d3650eea0ca384fa0703b9dc8562ced"
+  },
+  {
+    "id": "gqa_full",
+    "url": "https://arxiv.org/html/2305.13245v3",
+    "chars": 26814,
+    "checked": "2026-11-01",
+    "title": "gqa_full",
+    "status": 200,
+    "sha256": "039a451660d107c75cfed31fae43fd92e63888c43d713ca481e7777e8a9650a4"
+  },
+  {
+    "id": "flashattention_paper",
+    "url": "https://arxiv.org/abs/2205.14135",
+    "chars": 5301,
+    "checked": "2026-11-01",
+    "title": "flashattention_paper",
+    "status": 200,
+    "sha256": "5a2c14f16f47a0304f70aa4650360b0a981b60604e29e693854629719f50ecae"
+  },
+  {
+    "id": "sdpa",
+    "url": "https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "sdpa"
+  },
+  {
+    "id": "orca",
+    "url": "https://www.usenix.org/conference/osdi22/presentation/yu",
+    "error": "HTTP Error 403: Forbidden",
+    "title": "orca"
+  },
+  {
+    "id": "sdpa_source",
+    "title": "PyTorch v2.8.0 SDPA official source documentation excerpt",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.8.0/torch/nn/functional.py",
+    "version": "v2.8.0",
+    "status": 200,
+    "chars": 19000,
+    "checked": "2026-11-01",
+    "excerpt": true,
+    "read_sections": "boolean attention mask, non-square causal alignment, dropout, automatic kernel selection, GQA interface",
+    "sha256": "7760110ce047e64346002811d21ea931beb54edbcc865a3995247326009cc5b4"
+  },
+  {
+    "id": "clip-readme",
+    "url": "https://raw.githubusercontent.com/openai/CLIP/main/README.md",
+    "chars": 7302,
+    "checked": "2026-11-01",
+    "read_scope": "Read original image/text encoder APIs and image-text similarity purpose; no model inference.",
+    "title": "clip-readme",
+    "status": 200,
+    "sha256": "f82c5c75e140532eb37a7d943921e1bdd57d740c6b40d0030985bc5b5d11d6f1"
+  },
+  {
+    "id": "whisper-readme",
+    "url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
+    "chars": 8243,
+    "checked": "2026-11-01",
+    "read_scope": "Read original sequence-to-sequence audio task formulation and task limitations; no model inference.",
+    "title": "whisper-readme",
+    "status": 200,
+    "sha256": "38c180c2a8d8ba628a3e131ad42bf06c8a51bb681efb30fbe28d5a0f4b65f288"
+  },
+  {
+    "id": "deepseekv3-weights",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-V3/main/README_WEIGHTS.md",
+    "chars": 3655,
+    "checked": "2026-11-01",
+    "title": "deepseekv3-weights",
+    "status": 200,
+    "sha256": "0d2be8b8c9cb98f3f503f9aa029d1f2907282e68c7cf9429f9f6759ec52c8b23"
+  },
+  {
+    "id": "qwen3-8b-card",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B/raw/main/README.md",
+    "chars": 16660,
+    "checked": "2026-11-01",
+    "read_scope": "Read Qwen3-8B original model card/config: GQA/layers, initial thinking modes, native/context allocation/YaRN distinction and best practices.",
+    "title": "qwen3-8b-card",
+    "status": 200,
+    "sha256": "0f36caaff9c2516411a7738db384606263ba653c1e63e61d72f511606164d5a6"
+  },
+  {
+    "id": "qwen3-8b-config",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B/raw/main/config.json",
+    "chars": 728,
+    "checked": "2026-11-01",
+    "read_scope": "Read Qwen3-8B original model card/config: GQA/layers, initial thinking modes, native/context allocation/YaRN distinction and best practices.",
+    "title": "qwen3-8b-config",
+    "status": 200,
+    "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+  },
+  {
+    "id": "qwen3-8b-tokenizer-config",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B/raw/main/tokenizer_config.json",
+    "chars": 9732,
+    "checked": "2026-11-01",
+    "title": "qwen3-8b-tokenizer-config",
+    "status": 200,
+    "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  {
+    "id": "mamba-paper",
+    "title": "Mamba original paper, arXiv 2312.00752v2",
+    "url": "https://arxiv.org/html/2312.00752v2",
+    "chars": 149968,
+    "status": 200,
+    "checked": "2026-11-01",
+    "version": "2024-05-31 v2",
+    "read_scope": "Read sections 2, 3.2, 3.3 and relevant complexity discussion; not a full reproduction.",
+    "sha256": "5d3d21249d01008d226c440eb5b32c73d2248c87f6c05b4907b2f6e28f1e6d66"
+  },
+  {
+    "id": "deepseekr1-paper",
+    "title": "DeepSeek-R1 original technical report v1",
+    "url": "https://arxiv.org/html/2501.12948v1",
+    "chars": 62847,
+    "status": 200,
+    "checked": "2026-11-01",
+    "version": "2025-01-22 v1",
+    "read_scope": "Read sections 2.2 reward modeling, 2.3 cold start/staged training, 2.4 distillation and evaluation setup.",
+    "sha256": "ce253e696f3622b59f514ddf4ead602a456138dd617d5edb312182641d774ee4"
+  },
+  {
+    "id": "deepseekv3-paper-web-excerpts",
+    "title": "DeepSeek-V3 technical report v2, verified web excerpts",
+    "url": "https://arxiv.org/html/2412.19437v2",
+    "chars": 30195,
+    "status": 200,
+    "checked": "2026-11-01",
+    "version": "2025-02-18 v2",
+    "read_scope": "Read official web sections on MLA, auxiliary balancing, FP8, 4.2 hyperparameters and training cost exclusions; local file archives returned excerpts, not the complete paper. Direct HTML download timed out.",
+    "sha256": "9f05c47cb56dc956be85378fa0ce505b4cefb1ae69f3c8b5e1b66fd5699ccf8a"
+  },
+  {
+    "id": "switch-paper",
+    "title": "Switch Transformers JMLR formal paper",
+    "url": "https://jmlr.org/papers/volume23/21-0998/21-0998.pdf",
+    "chars": 126962,
+    "status": 200,
+    "checked": "2026-11-01",
+    "version": "JMLR 23(120), 2022",
+    "read_scope": "Read top-1 routing, capacity factor formula, overflow residual behavior and load-balance discussion in sections 2.1/2.2.",
+    "sha256": "51ddb142893f6626c9dbc940cd7117571809336fb171950e89d09f569f358eef"
+  },
+  {
+    "id": "rag-paper",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://proceedings.nips.cc/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf",
+    "chars": 73549,
+    "status": 200,
+    "checked": "2026-11-01",
+    "version": "NeurIPS 2020",
+    "read_scope": "Read methods 2.1-2.4: retrieved documents as conditions, sequence/token marginalization, retriever/generator and training; no experimental-score reproduction.",
+    "sha256": "6fd20a0ba5e786eeebf2f32bfe4298be92b8e99bcc85bbc0b4dff1d555e970d3"
+  },
+  {
+    "id": "qwen3-8b-config-fixed",
+    "title": "Qwen3-8B fixed revision configuration",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B/raw/b968826d9c46dd6066d109eabc6255188de91218/config.json",
+    "chars": 728,
+    "status": 200,
+    "checked": "2026-11-01",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "read_scope": "Read and actually validated layer/head/cache metadata; no weight loading or inference.",
+    "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+  },
+  {
+    "id": "asgi",
+    "title": "ASGI HTTP 2.5 specification",
+    "url": "https://asgi.readthedocs.io/en/latest/specs/www.html",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 22216,
+    "sha256": "2f39da07b467774faf05cf55d75cff0893fec1ff9fb5ecb93e928ab2d5c2dde5"
+  },
+  {
+    "id": "sse",
+    "title": "WHATWG Server-sent events",
+    "url": "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 26916,
+    "sha256": "519734d9f32fb5c3bdb0a7d32cb9d8483745e4905e231b62426d96db88c1f3bc"
+  },
+  {
+    "id": "uvicorn",
+    "title": "Uvicorn Server Behavior",
+    "url": "https://raw.githubusercontent.com/Kludex/uvicorn/main/docs/server-behavior.md",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 9463,
+    "sha256": "2e8e0380f51d4ca58d65e3ff6f0ccac69d8c547394e432a90358ef76b2bcf25d"
+  },
+  {
+    "id": "asyncio_queue",
+    "title": "Python 3.9 asyncio Queue",
+    "url": "https://docs.python.org/3.9/library/asyncio-queue.html",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 5989,
+    "sha256": "b1c042188bb75c5e13796181bf3a5163ce2cdbe954f7a76d5ea6086e8a0c64be"
+  },
+  {
+    "id": "asyncio_task",
+    "title": "Python 3.9 asyncio Tasks",
+    "url": "https://docs.python.org/3.9/library/asyncio-task.html",
+    "checked": "2026-11-01",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "cuda_notes",
+    "title": "PyTorch v2.8.0 CUDA semantics",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.8.0/docs/source/notes/cuda.rst",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 67975,
+    "sha256": "0906af7b74a11567fafb00f0a00d10c6f5e435f5df27539ed151190e8eac75f2"
+  },
+  {
+    "id": "cuda_memory",
+    "title": "PyTorch v2.8.0 CUDA memory",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.8.0/torch/cuda/memory.py",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 46762,
+    "sha256": "3afde64252800d6ce537ff62d471d1c60f9c07ea9c0022074db299d90d1f865d"
+  },
+  {
+    "id": "nginx_proxy",
+    "title": "NGINX proxy module",
+    "url": "https://nginx.org/en/docs/http/ngx_http_proxy_module.html",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 53924,
+    "sha256": "f9a3b66962089e85032b7dd97ef7604532da96a7012afa62728b2079eda55bb9"
+  },
+  {
+    "id": "vllm_abort",
+    "title": "vLLM AsyncLLM API",
+    "url": "https://docs.vllm.ai/en/latest/api/vllm/v1/engine/async_llm/",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 110362,
+    "sha256": "a34844f31a56060038f52a407910bf9cca9eb402c4e905e5b92bb342f02ddd1f"
+  },
+  {
+    "id": "dsh_readme",
+    "title": "DeepSeek Harness pinned README 2026-10-30",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/b830ec950faba0a46dda564be3e2d854afed94f1/README.md",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 2669,
+    "sha256": "0f5516be2acde776f05572cbc8c3093c90549afe04ce118e11157d073d5d15f4"
+  },
+  {
+    "id": "dsh_architecture",
+    "title": "DeepSeek Harness pinned architecture 2026-10-30",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/b830ec950faba0a46dda564be3e2d854afed94f1/docs/architecture.md",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 18888,
+    "sha256": "95a7722c7096d665d8adedeb733b8f5ad7740e67cb5c6e9dc91ec05f430cb760"
+  },
+  {
+    "id": "dsh_safety",
+    "title": "DeepSeek Harness pinned safety 2026-10-30",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/b830ec950faba0a46dda564be3e2d854afed94f1/SAFETY.md",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 1669,
+    "sha256": "62075bb51e0f7790441e7722ff12063107b4866019332e71ef01b63b6f880fee"
+  },
+  {
+    "id": "claude_harness_2025",
+    "title": "Effective harnesses for long-running agents",
+    "url": "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 13825,
+    "sha256": "7b1d1235fbecaabe861ef59aa0163416b06515499f88d84b755ffdc15ad91a66"
+  },
+  {
+    "id": "claude_harness_2026",
+    "title": "Harness design for long-running application development",
+    "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 33681,
+    "sha256": "5a62044c947e1ac6eb2c6803388c713a7b84f3bb95d8063b0a49c1d87d8973eb"
+  },
+  {
+    "id": "claude_managed",
+    "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+    "url": "https://www.anthropic.com/research/managed-agents",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 13488,
+    "sha256": "83d58c802f32e010000f9d0a21fb342cefed7c8870ab0044774fdbb63271d866"
+  },
+  {
+    "id": "claude_releases",
+    "title": "Claude Platform release notes",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "checked": "2026-11-01",
+    "status": "unavailable_body",
+    "chars": 4282,
+    "sha256": "7709c7ba6a80144ab2e539bbcaf8eb6cd3f162a542a318941eefa3e19a7aa52c",
+    "error": "HTTP200返回地区不可用落地页，未取得目标正文；本书未据此声称harness新发布。"
+  },
+  {
+    "id": "openai_harness",
+    "title": "Codex as a platform: build on the open agent harness",
+    "url": "https://developers.openai.com/blog/codex-as-a-platform",
+    "checked": "2026-11-01",
+    "status": 200,
+    "chars": 20750,
+    "sha256": "4a83fdf77ac1c8154b2aa780872c0f9696d211690275e7c01f0e0604ed369581"
+  },
+  {
+    "id": "claude_engineering_listing",
+    "title": "Anthropic官方工程文章目录",
+    "url": "https://www.anthropic.com/engineering",
+    "status": 200,
+    "chars": 7478,
+    "checked": "2026-11-01",
+    "scope": "目录核对发布日期；不作为全部互联网最新消息的穷尽证明",
+    "sha256": "fdb576bcedee66045fd606e86dfc7c3f13efd14fd50296579a4a3076eeb1143b"
+  },
+  {
+    "id": "superagent_README",
+    "title": "dsh-superagent README.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/README.md",
+    "status": 200,
+    "chars": 2571,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "737997cf5b7d4129f12ed5485ebbdd5e9d2ce3859a82ded6ac535d222327b713"
+  },
+  {
+    "id": "superagent_000-philosophy",
+    "title": "dsh-superagent 000-philosophy.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/000-philosophy.md",
+    "status": 200,
+    "chars": 3251,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "0a12126843556fde2bcc2ca52dae2c297b9b5ca9170c3e33d624b2a4d85ca76b"
+  },
+  {
+    "id": "superagent_001-domain",
+    "title": "dsh-superagent 001-domain.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/001-domain.md",
+    "status": 200,
+    "chars": 12223,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "cd010379e65cc428ffb335aee46529f2a524b8f573fc72359223060fb5a5111b"
+  },
+  {
+    "id": "superagent_002-authorization",
+    "title": "dsh-superagent 002-authorization.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/002-authorization.md",
+    "status": 200,
+    "chars": 13356,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "85f559708ac7faef89f88fcad30a405ca62a582a15764a7293686071e609dea0"
+  },
+  {
+    "id": "superagent_003-execution",
+    "title": "dsh-superagent 003-execution.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/003-execution.md",
+    "status": 200,
+    "chars": 17388,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "049aa22a717f75b9dec4cd6969356db6f736c127de4501c3ce1f6d846217f6eb"
+  },
+  {
+    "id": "superagent_004-prompts",
+    "title": "dsh-superagent 004-prompts.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/004-prompts.md",
+    "status": 200,
+    "chars": 9603,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "186ec9307249deae11f7aec68ff21bf58fb0601a204ada0d2688253d58627bf7"
+  },
+  {
+    "id": "superagent_005-panel",
+    "title": "dsh-superagent 005-panel.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/005-panel.md",
+    "status": 200,
+    "chars": 6204,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "f1f40a19be353933affef35f85428a5be4a3225045ab60bbbc307d35adf652bd"
+  },
+  {
+    "id": "superagent_006-deployment",
+    "title": "dsh-superagent 006-deployment.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/006-deployment.md",
+    "status": 200,
+    "chars": 23184,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "92c5a1c6aecab6782a64b3847a2d6f36a48dc9865fa7b04b892fcdaf04f7de9d"
+  },
+  {
+    "id": "superagent_007-architecture",
+    "title": "dsh-superagent 007-architecture.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/007-architecture.md",
+    "status": 200,
+    "chars": 70497,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "e3747665587fdf88b28d4e9c1a1f8ac40cbc2c65a9999be1fce14b69ec44d748"
+  },
+  {
+    "id": "superagent_008-cookbook",
+    "title": "dsh-superagent 008-cookbook.md",
+    "url": "https://raw.githubusercontent.com/deepseek-ai/dsh-superagent-prototype/6337fc823ce20251c8de8085948165c81aaa701e/docs/008-cookbook.md",
+    "status": 200,
+    "chars": 29626,
+    "checked": "2026-11-01",
+    "commit": "6337fc823ce20251c8de8085948165c81aaa701e",
+    "sha256": "adbdaa519f56bc7987ca6394950802cffcb855acff4ee715d10a26a9b0ccefec"
+  }
+]

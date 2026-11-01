@@ -1,0 +1,50 @@
+{
+  "torch_version": "2.8.0",
+  "device": "cpu",
+  "config": {
+    "vocab_size": 32,
+    "hidden_size": 32,
+    "num_layers": 2,
+    "num_heads": 4,
+    "intermediate_size": 64,
+    "max_seq_len": 32,
+    "rope_theta": 10000.0,
+    "rms_eps": 1e-06
+  },
+  "runs": [
+    {
+      "mode": "sft",
+      "seed": 470,
+      "steps": 100,
+      "input_shape": [
+        4,
+        6
+      ],
+      "supervised_targets": 12,
+      "trainable_parameters": 21664,
+      "initial_loss": 3.4550139904022217,
+      "final_loss": 0.0009606053936295211,
+      "teacher_forced_correct_targets": 12,
+      "frozen_base_max_change": null,
+      "merge_max_abs_error": null,
+      "note": "toy memorization and numerical checks, not instruction capability"
+    },
+    {
+      "mode": "lora",
+      "seed": 470,
+      "steps": 150,
+      "input_shape": [
+        4,
+        6
+      ],
+      "supervised_targets": 12,
+      "trainable_parameters": 1024,
+      "initial_loss": 3.4550139904022217,
+      "final_loss": 2.907055139541626,
+      "teacher_forced_correct_targets": 12,
+      "frozen_base_max_change": 0.0,
+      "merge_max_abs_error": 3.814697265625e-06,
+      "note": "toy memorization and numerical checks, not instruction capability"
+    }
+  ]
+}

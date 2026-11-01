@@ -1,0 +1,75 @@
+{
+  "checked": "2026-11-01",
+  "streaming": {
+    "one_byte_utf8_and_sse_chunks": "passed",
+    "cases": [
+      {
+        "case": "normal",
+        "outcome": "completed",
+        "reason": "server_stream_finished",
+        "generated": 40,
+        "delivered_deltas": 40,
+        "queue_high_water": 1,
+        "remaining_blocks": 0,
+        "resource_releases": 1,
+        "engine_aborts": 0
+      },
+      {
+        "case": "disconnect",
+        "outcome": "cancelled",
+        "reason": "http_disconnect",
+        "generated": 3,
+        "delivered_deltas": 3,
+        "queue_high_water": 1,
+        "remaining_blocks": 0,
+        "resource_releases": 1,
+        "engine_aborts": 1
+      },
+      {
+        "case": "send_failure",
+        "outcome": "cancelled",
+        "reason": "send_failed",
+        "generated": 3,
+        "delivered_deltas": 2,
+        "queue_high_water": 1,
+        "remaining_blocks": 0,
+        "resource_releases": 1,
+        "engine_aborts": 1
+      },
+      {
+        "case": "slow_consumer",
+        "outcome": "failed",
+        "reason": "slow_consumer",
+        "generated": 6,
+        "delivered_deltas": 1,
+        "queue_high_water": 4,
+        "remaining_blocks": 0,
+        "resource_releases": 1,
+        "engine_aborts": 0
+      },
+      {
+        "case": "send_timeout",
+        "outcome": "failed",
+        "reason": "send_timeout",
+        "generated": 6,
+        "delivered_deltas": 0,
+        "queue_high_water": 4,
+        "remaining_blocks": 0,
+        "resource_releases": 1,
+        "engine_aborts": 1
+      }
+    ],
+    "cancel_before_admission": "passed: no engine task allocated"
+  },
+  "harness": {
+    "router_decisions": 1,
+    "direct_deliveries": 1,
+    "duplicate_event": "ignored",
+    "unauthorized_actor": "filtered",
+    "stock_after_commit_and_recovery": 7,
+    "durable_tool_receipts": 1,
+    "changed_arguments_with_same_key": "rejected",
+    "scope": "离线确定性调度与指定崩溃窗口；不运行真实模型、DSH或外部工具"
+  },
+  "scope": "标准库、CPU、虚构业务、模拟引擎/ASGI传输；未运行真实GPU取消、真实代理或DSH部署。"
+}

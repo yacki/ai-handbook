@@ -1,0 +1,83 @@
+{
+  "scope": "CPU page references and copy-on-write only",
+  "outputs": {
+    "A": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      99
+    ]
+  },
+  "snapshots": [
+    {
+      "stage": "shared",
+      "refs": {
+        "7": 2,
+        "9": 2
+      }
+    },
+    {
+      "stage": "after_divergent_writes",
+      "refs": {
+        "7": 2,
+        "9": 1,
+        "12": 1
+      },
+      "block_tables": {
+        "A": [
+          7,
+          12
+        ],
+        "B": [
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "stage": "released_A",
+      "refs": {
+        "7": 1,
+        "9": 1
+      }
+    },
+    {
+      "stage": "released_B",
+      "refs": {}
+    }
+  ]
+}

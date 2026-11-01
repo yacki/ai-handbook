@@ -1,0 +1,108 @@
+{
+  "scope": "finite probability identities, no neural decoding benchmark",
+  "cases": [
+    {
+      "target": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "draft": [
+        0.2,
+        0.5,
+        0.3
+      ],
+      "acceptance": [
+        1.0,
+        0.6,
+        0.6666666666666667
+      ],
+      "rejection_mass": 0.30000000000000004,
+      "residual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "output": [
+        0.5,
+        0.3,
+        0.2
+      ]
+    },
+    {
+      "target": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "draft": [
+        0.2,
+        0.3,
+        0.5
+      ],
+      "acceptance": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rejection_mass": 0.0,
+      "residual": null,
+      "output": [
+        0.2,
+        0.3,
+        0.5
+      ]
+    },
+    {
+      "target": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "draft": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "acceptance": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rejection_mass": 1.0,
+      "residual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "output": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": [
+        0.6,
+        0.4
+      ],
+      "draft": [
+        0.8,
+        0.2
+      ],
+      "acceptance": [
+        0.7499999999999999,
+        1.0
+      ],
+      "rejection_mass": 0.19999999999999996,
+      "residual": [
+        0.0,
+        1.0
+      ],
+      "output": [
+        0.6,
+        0.39999999999999997
+      ]
+    }
+  ]
+}

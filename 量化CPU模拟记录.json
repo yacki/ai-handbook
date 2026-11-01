@@ -1,0 +1,20 @@
+{
+  "scope": "tiny numerical simulation, not compressed deployment",
+  "torch_version": "2.8.0",
+  "seed": 63,
+  "simulated_quantized_parameters": 21504,
+  "baseline_loss": 3.5146312713623047,
+  "rounded_loss": 3.5155248641967773,
+  "max_abs_logit_difference": 0.004211708903312683,
+  "equal_argmax_positions": 8,
+  "positions": 8,
+  "original_dot": 1.2000000000000002,
+  "restored_dot": 1.1929133858267713,
+  "outlier_scale": 0.07874015748031496,
+  "outlier_codes": [
+    0,
+    0,
+    0,
+    127
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "device": "cpu",
+  "torch_version": "2.8.0",
+  "delayed_copy": {
+    "parameters": 21152,
+    "updates": 100,
+    "supervised_tokens": 400,
+    "initial_loss": 2.874831199645996,
+    "final_loss": 0.0008437026990577579,
+    "targets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "predictions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "changed_key_predictions": [
+      4,
+      1,
+      2,
+      3
+    ],
+    "last_token_only_optimal_loss_for_balanced_keys": 1.3862943611198906,
+    "scope": "fixed six-position diagnostic, no held-out length or natural-language generalization claim"
+  },
+  "cpu_bfloat16_module_dtypes": [
+    {
+      "module": "embedding",
+      "input_dtype": "torch.int64",
+      "output_dtype": "torch.float32",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "blocks.0.attn_norm",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.float32",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "blocks.0.attn.q_proj",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "blocks.0.attn.out_proj",
+      "input_dtype": "torch.bfloat16",
+      "output_dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "blocks.0.ffn_norm",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.float32",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "blocks.0.ffn.gate_proj",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        4,
+        64
+      ]
+    },
+    {
+      "module": "blocks.0.ffn.down_proj",
+      "input_dtype": "torch.bfloat16",
+      "output_dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "blocks.0",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.float32",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "final_norm",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.float32",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    },
+    {
+      "module": "lm_head",
+      "input_dtype": "torch.float32",
+      "output_dtype": "torch.bfloat16",
+      "shape": [
+        1,
+        4,
+        32
+      ]
+    }
+  ],
+  "parameter_dtype": "torch.float32",
+  "gpu_amp_executed": false,
+  "ddp_executed": false,
+  "formal_195m_training_executed": false,
+  "model_source_sha256": "ba9286a0c9ba0466cbc7af1bae78817a47e669b5a2d78f00b476adfce7ef3a89"
+}

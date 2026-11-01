@@ -1,0 +1,22 @@
+{
+  "scope": "synthetic observations, not trained model scores",
+  "baseline": [
+    3.1,
+    3.0,
+    3.2
+  ],
+  "candidate": [
+    3.02,
+    2.99,
+    3.11
+  ],
+  "paired_differences": [
+    -0.08000000000000007,
+    -0.009999999999999787,
+    -0.0900000000000003
+  ],
+  "mean_difference": -0.06000000000000005,
+  "sample_standard_deviation": 0.043588989435406976,
+  "standard_error": 0.02516611478423597,
+  "factorial_interaction": -0.19999999999999973
+}

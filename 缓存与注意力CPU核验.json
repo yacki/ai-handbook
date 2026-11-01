@@ -1,0 +1,19 @@
+{
+  "scope": "CPU tiny numerical equivalence; no GPU timing or deployed cache",
+  "torch_version": "2.8.0",
+  "seed": 5962,
+  "input_tokens": 8,
+  "prefill_tokens": 4,
+  "single_token_decode_calls": 4,
+  "cached_vs_full_max_abs_error": 1.1920928955078125e-07,
+  "cache_total_bytes_float32": 4096,
+  "per_layer_cache_shape": [
+    1,
+    4,
+    8,
+    8
+  ],
+  "sdpa_cpu_vs_reference_max_abs_error": 1.1920928955078125e-07,
+  "gqa_group_mapping_max_abs_error": 0.0,
+  "gqa_note": "repeat/expand checks semantics, not a memory-efficient kernel"
+}

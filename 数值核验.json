@@ -1,0 +1,268 @@
+{
+  "checked": "2026-11-01",
+  "scope": "第1—20章的24项代表性算例，以及全书篇幅、编号、练习与提示检查；其他章节实测另有记录，不等于穷尽全部科学结论",
+  "chapter_count": 92,
+  "numerical_checks": [
+    {
+      "chapter": 1,
+      "check": "生成路径概率",
+      "actual": 0.05,
+      "expected": 0.05,
+      "passed": true
+    },
+    {
+      "chapter": 2,
+      "check": "BPE合并前后片段数",
+      "actual": [
+        11,
+        5
+      ],
+      "expected": [
+        11,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 3,
+      "check": "softmax",
+      "actual": [
+        0.7054,
+        0.2595,
+        0.0351
+      ],
+      "expected": [
+        0.7054,
+        0.2595,
+        0.0351
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "check": "天气平均交叉熵",
+      "actual": 0.777661295762166,
+      "expected": 0.777661295,
+      "passed": true
+    },
+    {
+      "chapter": 4,
+      "check": "按有效位置加权",
+      "actual": 0.6,
+      "expected": 0.6,
+      "passed": true
+    },
+    {
+      "chapter": 5,
+      "check": "单参数更新",
+      "actual": 0.9345,
+      "expected": 0.9345,
+      "passed": true
+    },
+    {
+      "chapter": 6,
+      "check": "双参数更新及新损失",
+      "actual": [
+        1.4,
+        0.2,
+        0.5
+      ],
+      "expected": [
+        1.4,
+        0.2,
+        0.5
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "check": "批次更新后平均损失",
+      "actual": 0.47812499999999997,
+      "expected": 0.478125,
+      "passed": true
+    },
+    {
+      "chapter": 7,
+      "check": "顺序更新参数",
+      "actual": [
+        0.8400000000000001,
+        -0.03
+      ],
+      "expected": [
+        0.84,
+        -0.03
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 8,
+      "check": "新输入的两种预测",
+      "actual": [
+        0,
+        20
+      ],
+      "expected": [
+        0,
+        20
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 9,
+      "check": "批量线性层",
+      "actual": [
+        5.5,
+        1.5,
+        -4.5,
+        4.5
+      ],
+      "expected": [
+        5.5,
+        1.5,
+        -4.5,
+        4.5
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 10,
+      "check": "有效目标平均损失",
+      "actual": 1.0397207708399179,
+      "expected": 1.03972077084,
+      "passed": true
+    },
+    {
+      "chapter": 11,
+      "check": "嵌入参数及权重MiB",
+      "actual": [
+        25165824,
+        48.0
+      ],
+      "expected": [
+        25165824,
+        48
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 12,
+      "check": "异或四种输出",
+      "actual": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "expected": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 13,
+      "check": "第一次批量更新后的损失",
+      "actual": 6.551093750000001,
+      "expected": 6.55109375,
+      "passed": true
+    },
+    {
+      "chapter": 14,
+      "check": "三次动量更新后的参数与损失",
+      "actual": [
+        0.972,
+        0.472392
+      ],
+      "expected": [
+        0.972,
+        0.472392
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 15,
+      "check": "Adam第二步方向比值",
+      "actual": 0.93217957984634,
+      "expected": 0.9321795798463393,
+      "passed": true
+    },
+    {
+      "chapter": 15,
+      "check": "AdamW示例",
+      "actual": 1.988,
+      "expected": 1.988,
+      "passed": true
+    },
+    {
+      "chapter": 16,
+      "check": "梯度裁剪范数",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "chapter": 17,
+      "check": "数据流水线剩余与切分",
+      "actual": [
+        700,
+        560.0,
+        70.0
+      ],
+      "expected": [
+        700,
+        560,
+        70
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 18,
+      "check": "窗口目标与掩码计数",
+      "actual": [
+        8,
+        5
+      ],
+      "expected": [
+        8,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 19,
+      "check": "bigram理论平均交叉熵",
+      "actual": 0.23104906018664842,
+      "expected": 0.23104906018664842,
+      "passed": true
+    },
+    {
+      "chapter": 19,
+      "check": "bigram大词表参数及内存",
+      "actual": [
+        1073741824,
+        4.0
+      ],
+      "expected": [
+        1073741824,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "chapter": 20,
+      "check": "二token上下文表",
+      "actual": [
+        35184372088832,
+        128.0
+      ],
+      "expected": [
+        35184372088832,
+        128
+      ],
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}
